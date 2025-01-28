@@ -1,2 +1,2 @@
 # Python
-Repositiry untuk menyimpan source code belajar python
+Repository untuk menyimpan source code belajar python
