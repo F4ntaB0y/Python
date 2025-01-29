@@ -1,4 +1,4 @@
-print('## Program Python Segitiga Bintang ##')
+print('## Program Python Piramida Bintang ##')
 print('============================================')
 print()
 
