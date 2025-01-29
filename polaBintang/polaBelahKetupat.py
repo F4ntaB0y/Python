@@ -5,7 +5,7 @@ print()
 lebarBelahKetupat = int(input('Masukan lebar belah ketupat: '))
 print()
 
-# # ?enam perulangan
+#? enam perulangan
 # for i in range(lebarBelahKetupat):
 #     for j in range(lebarBelahKetupat - i):
 #         print(' ', end='')
@@ -22,7 +22,7 @@ print()
 #         print(' *', end='')
 #     print()
 
-# ?dua perulangan
+#? dua perulangan
 for i in range(lebarBelahKetupat):
     print(' ' * (lebarBelahKetupat - i), end='')
     print(' *' * (i + 1))
