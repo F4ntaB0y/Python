@@ -2,7 +2,7 @@ print('##  Program Python Persegi Deret Angka ##')
 print('=========================================')
 print()
 
-besarPersegi = int(input('Input besar persegi: '))
+besarPersegi = int(input('Masukan besar persegi: '))
 print()
 
 #? versi (1)
