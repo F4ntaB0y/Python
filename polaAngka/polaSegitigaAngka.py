@@ -20,14 +20,14 @@ print()
 #     print()
 
 #? versi (2)
-for i in range(1, tinggiSegitiga + 1):
-    for j in range(1, i + 1):
-        print(i, ' ', end='', sep='')
-    print()
+# for i in range(1, tinggiSegitiga + 1):
+#     for j in range(1, i + 1):
+#         print(i, ' ', end='', sep='')
+#     print()
 
 #? versi (2.1)
-# for i in range(1, tinggiSegitiga + 1):
-#     for j in range(i):
-#         print(j + 1, ' ', end='', sep='')
-#         j = j + 1
-#     print()
+for i in range(1, tinggiSegitiga + 1):
+    for j in range(i):
+        print(j + 1, ' ', end='', sep='')
+        j = j + 1
+    print()
