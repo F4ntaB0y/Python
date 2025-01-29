@@ -1,0 +1,24 @@
+print('##  Program Python Persegi Angka  ##')
+print('=====================================')
+print()
+
+besarPersegi = int(input('Masukan besar persegi: '))
+print()
+
+# ?versi 1
+# for i in range(1, besarPersegi + 1):
+#     for j in range(1, besarPersegi + 1):
+#         print(i, end='')
+#     print()
+
+# ?versi 1.2
+# for i in range(besarPersegi):
+#     for j in range(besarPersegi):
+#         print(i + 1, end='')
+#     print()
+
+# ?versi 2
+for i in range(besarPersegi):
+    for j in range(besarPersegi):
+        print(j + 1, end='')
+    print()
