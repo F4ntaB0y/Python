@@ -5,12 +5,12 @@ print()
 besarPersegi = int(input('Masukan Angka: '))
 print()
 
-# ?dua Perulangan
+#? dua Perulangan
 # for i in range(besarPersegi):
 #     for j in range(besarPersegi):
 #         print(' *', end='')
 #     print()
 
-# ?satu Perulangan
+#? satu Perulangan
 for i in range(besarPersegi):
     print('* ' * besarPersegi)
