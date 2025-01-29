@@ -5,7 +5,7 @@ print()
 tinggiPiramida = int(input('Masukan tinggi piramaida: '))
 print()
 
-# ?dua perulangan
+#? dua perulangan
 # for i in range(tinggiPiramida):
 #     for j in range(tinggiPiramida-i):
 #         print(' ', end='')
@@ -14,7 +14,7 @@ print()
 #         print(' *', end='')
 #     print()
 
-# ?satu perulangan
+#? satu perulangan
 for i in range(tinggiPiramida):
     print(' ' * (tinggiPiramida - i),end='')
     print(' *' * (i + 1))
