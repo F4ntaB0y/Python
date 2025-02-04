@@ -15,7 +15,7 @@ print()
 # else:
 #     #? Memeriksa apakah angka memiliki pembagi selain 1 dan dirinya sendiri
 #     # for i in range(2, (x // 2)):  #! Loop dari 2 hingga x//2 (kurang optimal)
-#     for i in range(2, int(x ** 0.5) + 1): #* gunakan agar lebih cepat, karena faktor bilangan tidak mungkin lebih besar dari akar kuadratnya.
+#     for i in range(2, int(x ** 0.5) + 1): #* Alternativ loop, gunakan agar lebih cepat, karena faktor bilangan tidak mungkin lebih besar dari akar kuadratnya.
 #         if ((x % i) == 0):  # Jika habis dibagi i, maka bukan bilangan prima
 #             angka_prima = False
 #             break  # Hentikan loop jika sudah ditemukan faktor pembagi
