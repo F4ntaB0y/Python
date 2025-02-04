@@ -10,7 +10,7 @@ print()
 # angka_prima = True
 
 # #? Jika angka adalah 0 atau 1, maka bukan bilangan prima
-# if ((x == 0) or (x == 1)):
+# if ((x == 0) or (x == 1)): # 0 bukan prima karena bisa dibagi dengan semua bilangan, sementara 1 karena dia hanya bisa dibagi dengan 1
 #     angka_prima = False
 # else:
 #     #? Memeriksa apakah angka memiliki pembagi selain 1 dan dirinya sendiri
