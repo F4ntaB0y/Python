@@ -4,7 +4,6 @@ print('================================================')
 print()
 
 #* versi(1)
-# Meminta pengguna untuk memasukkan angka biner
 angka_biner = int(input('Input angka biner: '))
 print('Angka desimal dari biner', angka_biner, end='')
 
