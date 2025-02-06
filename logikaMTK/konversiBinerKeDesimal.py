@@ -27,5 +27,4 @@ angka_biner = input('Input angka biner: ')
 # Parameter kedua pada int() adalah basis bilangan (dalam hal ini basis 2)
 angka_desimal = int(angka_biner, 2)
 
-# Menampilkan hasil konversi dari biner ke desimal
 print('Angka desimal dari biner', angka_biner, '=', angka_desimal)
