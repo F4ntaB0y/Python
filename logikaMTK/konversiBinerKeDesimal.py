@@ -1,4 +1,3 @@
-# Program Python Konversi Biner ke Desimal
 print('##  Program Python Konversi Biner ke Desimal  ##')
 print('================================================')
 print()
