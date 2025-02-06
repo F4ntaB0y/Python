@@ -17,7 +17,6 @@ while (angka_biner != 0):
     i = i * 2  # Mengupdate nilai tempat (basis 2)
     angka_biner = angka_biner // 10  # Menghapus digit terakhir yang sudah diproses
 
-# Menampilkan hasil konversi dalam format desimal
 print(' =', angka_desimal)
 
 #* versi(2) cara singkat dengan function bin()
