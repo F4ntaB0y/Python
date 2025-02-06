@@ -12,7 +12,7 @@ angka = int(input('Masukan angka: '))
 
 #? versi(1.1)
 # hasil = 1
-# for i in range(2, angka + 1): #perulangan di mulai dari 2 karena hasil sudah bernilai 1
+# for i in range(2, angka + 1): # perulangan di mulai dari 2 karena hasil sudah bernilai 1
     # hasil = hasil * i
 # print(angka, '! = ', hasil, sep='')
 
