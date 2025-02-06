@@ -38,12 +38,16 @@ Bilangan prima adalah bilangan yang hanya memiliki dua faktor(1 dan dirinya send
 #* versi(2) memperbaiki bug di versi sebelumnya
 x = int(input('Input satu angka bulat: '))
 
+#? bilangan prima dimulai dari 2
 if x < 2:
     print(x, 'bukan angka prima')
+
+#? mengecek angka
 else:
     angka_prima = True 
 
-    for i in range(2, int(x**0.5) + 1): #? faktor bilangan tidak mungkin lebih besar dari akar kuadratnya.
+    #? faktor bilangan tidak mungkin lebih besar dari akar kuadratnya.
+    for i in range(2, int(x**0.5) + 1): #! harus dikonversi ke int jika tidak akan error
         if x % i == 0:  
             angka_prima = False
             print(x, 'bukan angka prima, karena bisa dibagi', i)  # Cetak pembagi pertama yang ditemukan
