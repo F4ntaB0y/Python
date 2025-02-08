@@ -18,7 +18,7 @@ while n > 0:
 print('Angka binernya adalah: ', end='')
 
 # Membaca list dari belakang untuk menampilkan angka biner dengan benar
-for i in range(i - 1, -1, -1):
+for i in range(i - 1, -1, -1): # Star - Stop - Step
     print(a[i], end='')  # Mencetak angka biner sesuai index dana tanpa spasi tambahan
 
 #* versi(2)
