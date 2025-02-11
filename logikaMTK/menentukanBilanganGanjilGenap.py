@@ -4,7 +4,6 @@ print('=====================================================')
 print()
 
 #* versi(1)
-# Meminta pengguna untuk memasukkan sebuah angka bulat
 x = int(input('Input sebuah angka bulat: '))
 
 # Mengecek apakah angka genap atau ganjil
