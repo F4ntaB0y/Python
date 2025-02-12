@@ -13,7 +13,6 @@ else:  # Jika tidak, maka angka ganjil
     print(x, 'adalah bilangan ganjil')
 
 #* versi(2)
-# Meminta pengguna untuk memasukkan sebuah angka bulat
 x = int(input('Input sebuah angka bulat: '))
 
 # Mengecek apakah angka ganjil atau genap dengan kondisi terbalik
