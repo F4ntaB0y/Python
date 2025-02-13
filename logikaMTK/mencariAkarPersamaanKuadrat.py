@@ -1,6 +1,5 @@
 import math  # Mengimpor modul math untuk menggunakan fungsi sqrt()
 
-# Program Python Mencari Akar Persamaan Kuadrat
 print('##  Program Python Mencari Akar Persamaan Kuadrat  ##')
 print('=====================================================')
 print()
