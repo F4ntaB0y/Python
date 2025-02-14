@@ -5,7 +5,6 @@ print('=====================================================')
 print()
 print('Format persamaan: ax^2 + bx + c = 0')
 
-# Meminta pengguna untuk memasukkan nilai koefisien a, b, dan c
 a = int(input('Input nilai a: '))
 b = int(input('Input nilai b: '))
 c = int(input('Input nilai c: '))
