@@ -4,22 +4,22 @@ print('================================================')
 print()
 
 #* versi(1)
-n = int(input('Masukan angka desimal: '))
+# n = int(input('Input angka desimal: '))
 
-a = [] # List untuk menyimpan hasil konversi biner
-i = 0 # berfungsi untuk proses increment perulangan while.
+# a = [] # List untuk menyimpan konversi biner
+# i = 0 # berfungsi untuk proses increment perulangan while.
 
-#? Mengonversi angka desimal ke biner menggunakan metode pembagian berulang
-while n > 0:
-    a.append(n % 2)  # Menyimpan sisa hasil bagi (0 atau 1) ke list a
-    n = n // 2  # Membagi dengan 2 untuk mendapatkan nilai berikutnya
-    i = i + 1  # Menambah indeks 
+# #? Mengonversi desimal ke biner menggunakan metode pembagian berulang
+# while n > 0:
+#     a.append(n % 2)  # Menyimpan sisa hasil bagi (0 atau 1) ke list a
+#     n = n // 2  # Membagi dengan 2 untuk mendapatkan nilai berikutnya
+#     i = i + 1  # Menambah indeks 
 
-print('Angka binernya adalah: ', end='')
+# print('Angka binernya adalah: ', end='')
 
-# Membaca list dari belakang untuk menampilkan angka biner dengan benar
-for i in range(i - 1, -1, -1): # Star - Stop - Step
-    print(a[i], end='')  # Mencetak angka biner sesuai index dana tanpa spasi tambahan
+# #? Membaca list dari belakang dan menampilkan biner
+# for i in range(i - 1, -1, -1): # start, stop, step
+#     print(a[i], end='')  # Mencetak angka biner sesuai index dan tanpa spasi
 
 #* versi(2)
 # n = int(input('Masukan angka desimal: '))
