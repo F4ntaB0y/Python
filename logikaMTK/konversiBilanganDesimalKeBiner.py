@@ -4,7 +4,7 @@ print('================================================')
 print()
 
 #* versi(1)
-n = int(input('Input angka desimal: '))
+n = int(input('Masukan angka desimal: '))
 
 a = [] # List untuk menyimpan hasil konversi biner
 i = 0 # berfungsi untuk proses increment perulangan while.
@@ -22,7 +22,7 @@ for i in range(i - 1, -1, -1): # Star - Stop - Step
     print(a[i], end='')  # Mencetak angka biner sesuai index dana tanpa spasi tambahan
 
 #* versi(2)
-# n = int(input('Input angka desimal: '))
+# n = int(input('Masukan angka desimal: '))
 
 # # Mengonversi angka desimal ke biner menggunakan fungsi bawaan bin()
 # # Fungsi bin() menghasilkan string dalam format '0b...' sehingga '0b' dihapus dengan replace()
