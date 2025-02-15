@@ -24,12 +24,13 @@ print()
 #* versi(2)
 # n = int(input('Masukan angka desimal: '))
 
-# # Mengonversi angka desimal ke biner menggunakan fungsi bawaan bin()
-# # Fungsi bin() menghasilkan string dalam format '0b...' sehingga '0b' dihapus dengan replace()
-# biner = bin(n).replace("0b", "")
+# #? Mengonversi angka desimal ke biner menggunakan fungsi bawaan bin()
+# biner = bin(n).replace("0b", "") # Fungsi bin() menghasilkan string dalam format '0b...' sehingga '0b' dihapus dengan replace()
 
 # print('Angka binernya adalah:', biner)
 
-# #? Berikut contoh perbedaan hasil dari bin(x) dan bin(x).replace("0b",""):
-# print(bin(211))                   # 0b11010011
-# print(bin(211).replace("0b",""))  # 11010011
+'''
+#! Berikut contoh perbedaan hasil dari bin(x) dan bin(x).replace("0b",""):
+print(bin(211))                   # 0b11010011
+print(bin(211).replace("0b",""))  # 11010011
+'''
