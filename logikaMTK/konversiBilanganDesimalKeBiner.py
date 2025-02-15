@@ -12,7 +12,7 @@ i = 0 # berfungsi untuk proses increment perulangan while.
 #? Mengonversi angka desimal ke biner menggunakan metode pembagian berulang
 while n > 0:
     a.append(n % 2)  # Menyimpan sisa hasil bagi (0 atau 1) ke list a
-    n = n // 2  # Membagi angka dengan 2 untuk mendapatkan nilai berikutnya
+    n = n // 2  # Membagi dengan 2 untuk mendapatkan nilai berikutnya
     i = i + 1  # Menambah indeks 
 
 print('Angka binernya adalah: ', end='')
