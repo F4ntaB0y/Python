@@ -3,11 +3,11 @@ print('================================================')
 print()
 
 #* versi(1)
-angka_biner = int(input('Input angka biner: '))
+angka_biner = int(input('Masukan angka biner: '))
 print('Angka desimal dari biner', angka_biner, end='')
 
 angka_desimal = 0
-i = 1 
+i = 1 # Wadah pola nilai
 
 #? Proses konversi biner ke desimal
 while (angka_biner != 0):
@@ -19,7 +19,8 @@ while (angka_biner != 0):
 print(' =', angka_desimal)
 
 #* versi(2) cara singkat dengan function bin()
-# angka_biner = input('Input angka biner: ')
+# # Meminta pengguna untuk memasukkan angka biner dalam bentuk string
+# angka_biner = input('Masukan angka biner: ')
 
 # # Mengonversi angka biner ke desimal menggunakan fungsi bawaan int()
 # # Parameter kedua pada int() adalah basis bilangan (dalam hal ini basis 2)
