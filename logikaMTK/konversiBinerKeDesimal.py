@@ -19,7 +19,6 @@ while (angka_biner != 0):
 print(' =', angka_desimal)
 
 #* versi(2) cara singkat dengan function bin()
-# # Meminta pengguna untuk memasukkan angka biner dalam bentuk string
 # angka_biner = input('Input angka biner: ')
 
 # # Mengonversi angka biner ke desimal menggunakan fungsi bawaan int()
