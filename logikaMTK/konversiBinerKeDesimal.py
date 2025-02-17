@@ -3,28 +3,26 @@ print('================================================')
 print()
 
 #* versi(1)
-angka_biner = int(input('Masukan angka biner: '))
-print('Angka desimal dari biner', angka_biner, end='')
-
-angka_desimal = 0
-i = 1 # Wadah pola nilai
+angkaBiner = int(input('Masukan angka biner: '))
+angkaDesimal = 0 # wadah untuk menyimpan angka desimal setelah di hitung
+i = 1 # Wadah pola nilai setelah dikali (basis 2)
 
 #? Proses konversi biner ke desimal
-while (angka_biner != 0):
-    digit = angka_biner % 10  # Mengambil digit terakhir dari angka biner
-    angka_desimal = angka_desimal + (digit * i)  # Mengalikan digit dengan nilai tempatnya
-    i = i * 2  # Mengupdate nilai tempat (basis 2)
-    angka_biner = angka_biner // 10  # Menghapus digit terakhir yang sudah diproses
+while (angkaBiner != 0):
+    digit = angkaBiner % 10  # Mengambil digit terakhir dari angka biner
+    angkaDesimal = angkaDesimal + (digit * i)  # Mengalikan digit dengan nilai tempatnya
+    i = i * 2  # Mengupdate nilai wadaah (basis 2)
+    angkaBiner = angkaBiner // 10  # Menghapus digit terakhir yang sudah diproses
 
-print(' =', angka_desimal)
+print('Angka desimalnya:', angkaDesimal)
 
 #* versi(2) cara singkat dengan function bin()
 # # Meminta pengguna untuk memasukkan angka biner dalam bentuk string
-# angka_biner = input('Masukan angka biner: ')
+# angkaBiner = input('Masukan angka biner: ')
 
 # # Mengonversi angka biner ke desimal menggunakan fungsi bawaan int()
 # # Parameter kedua pada int() adalah basis bilangan (dalam hal ini basis 2)
-# angka_desimal = int(angka_biner, 2)
+# angkaDesimal = int(angkaBiner, 2)
 
 # # Menampilkan hasil konversi dari biner ke desimal
-# print('Angka desimal dari biner', angka_biner, '=', angka_desimal)
+# print('Angka desimal dari biner', angkaBiner, '=', angkaDesimal)
