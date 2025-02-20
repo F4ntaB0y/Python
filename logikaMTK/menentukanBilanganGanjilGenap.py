@@ -9,7 +9,7 @@ x = int(input('Input sebuah angka bulat: '))
 # Mengecek apakah angka genap atau ganjil
 if (x % 2 == 0):  # Jika sisa pembagian angka dengan 2 adalah 0, maka angka genap
     print(x, 'adalah bilangan genap')
-else:  # Jika tidak, maka angka ganjil
+else:  
     print(x, 'adalah bilangan ganjil')
 
 #* versi(2)
