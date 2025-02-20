@@ -23,8 +23,8 @@ print('Diskriminan =',D,end='')
 if (D > 0):  # Jika D > 0, akar real dan berbeda
     print(' (akar real dan berbeda)');
     # Menghitung akar persamaan menggunakan rumus kuadratik
-    # x1 = (-b + math.sqrt(D)) / (2*a)
-    # x2 = (-b - math.sqrt(D)) / (2*a)
+    x1 = (-b + math.sqrt(D)) / (2*a)
+    x2 = (-b - math.sqrt(D)) / (2*a)
 
     # Menampilkan akar dengan pembulatan dua desimal
     print('x1 =',round(x1,2))
