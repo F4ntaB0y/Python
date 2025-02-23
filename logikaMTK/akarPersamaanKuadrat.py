@@ -5,7 +5,6 @@ print('##  Program Python Mencari Akar Persamaan Kuadrat  ##')
 print('=====================================================')
 print()
 
-# Menampilkan format umum persamaan kuadrat
 print('Format persamaan: ax^2 + bx + c = 0')
 
 # Meminta pengguna untuk memasukkan nilai a, b, dan c
