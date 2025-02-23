@@ -8,9 +8,9 @@ print()
 print('Format persamaan: ax^2 + bx + c = 0')
 
 # Meminta pengguna untuk memasukkan nilai a, b, dan c
-a = int(input('Input nilai a: '))
-b = int(input('Input nilai b: '))
-c = int(input('Input nilai c: '))
+a = int(input('Masukan nilai a: '))
+b = int(input('Masukan nilai b: '))
+c = int(input('Masukan nilai c: '))
 print()
 
 # Menghitung diskriminan dengan rumus D = b^2 - 4ac
