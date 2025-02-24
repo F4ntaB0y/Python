@@ -1,4 +1,3 @@
-# Program Python Menentukan Ganjil-Genap
 print('##  Program Python Menentukan Ganjil-Genap  ##')
 print('=====================================================')
 print()
