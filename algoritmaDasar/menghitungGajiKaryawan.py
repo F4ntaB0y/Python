@@ -15,9 +15,9 @@ if golongan == 'A':
 elif golongan == 'B':
     upahPerJam = 7000
 elif golongan == 'C':
-    upahPerJam = 7000
+    upahPerJam = 9000
 elif golongan == 'D':
-    upahPerJam = 7000
+    upahPerJam = 12000
 else:
     print("Golongan tidak valid")
 
